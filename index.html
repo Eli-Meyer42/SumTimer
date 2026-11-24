@@ -303,7 +303,7 @@ body.editing .badges{display:none}
       <select id="logFilter" aria-label="Show"><option value="all">Everything</option><option value="said">Only what I said</option><option value="none">Only not understood</option><option value="note">Only notes</option><option value="app">Only app notes</option></select>
       <label class="tapsToggle"><input type="checkbox" id="showTaps"> Show taps</label><select hidden></select>
     </div>
-    <div class="logbar"><button class="btn" id="copyLog">Copy this game</button><button class="btn" id="exportGame">Export this game</button><button class="btn" id="exportLog">Export all</button><button class="btn" id="importLog">Import</button><input type="file" id="importFile" accept=".txt,.json,text/plain,application/json" hidden><button class="btn" id="copyApp">Copy app notes (all games)</button><button class="btn" id="clearLog">Clear all</button><span id="logMsg"></span></div>
+    <div class="logbar"><button class="btn" id="copyLog">Copy this game</button><button class="btn" id="exportGame">Export this game</button><button class="btn" id="exportLog">Export all</button><button class="btn" id="importLog">Import</button><input type="file" id="importFile" hidden><button class="btn" id="copyApp">Copy app notes (all games)</button><button class="btn" id="clearLog">Clear all</button><span id="logMsg"></span></div>
     <div class="logsum" id="logSum"></div>
     <div class="logwrap" id="logWrap"><table class="logtable"><thead><tr><th>Game</th><th>Real</th><th>You said</th><th>What happened</th></tr></thead><tbody id="logBody"></tbody></table></div>
   </div>
@@ -1871,7 +1871,7 @@ const APP={
   title:  'Sum Timer',
   key:    'sumtimer-v1',          // activity log / token keys
   dbPath: 'sumtimer/main',        // Firebase branch
-  build:  'Build 1 · 24 Nov 2026',
+  build:  'Build 2 · 24 Nov 2026',
   links:[
     {label:'Stored data',      url:'https://console.firebase.google.com/project/shopping-eb9b3/database/shopping-eb9b3-default-rtdb/data/~2Fsumtimer~2Fmain'},
     {label:'Firebase console', url:'https://console.firebase.google.com/project/shopping-eb9b3/overview'},
